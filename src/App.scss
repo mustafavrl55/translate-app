@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+.header{
+  background-color: #a7233a;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+  }
+  
+}
+.context{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .button{
+    margin: 0 50px;
+    padding: 20px 20px;
+  }
+  .product-left{
+      margin-top: 100px;
+      width: 350px;
+      .textarea{
+        margin-top: 30px;
+      } 
+      .bottom{
+        float: right;
+        svg {
+          margin: 10px 10px;
+        }
+      }
+  }
+  .product-right{
+    margin-top: 100px;
+    width: 350px;
+    .textarea{
+      margin-top: 30px;
+      width: 350px;
+    }
+    .bottom{
+      float: right;
+      svg {
+        margin: 10px 10px;
+      }
+    }
+  }
+}
